@@ -12,7 +12,7 @@ html {
 }
 body {
   margin: 0;
-}
+ }
 article,
 aside,
 details,
@@ -242,8 +242,9 @@ th {
   select {
     background: #fff !important;
   }
-  .navbar {
-    display: none;
+  .navigation {
+    display: inherit;
+    background: transparent;
   }
   .btn > .caret,
   .dropup > .btn > .caret {
