@@ -243,8 +243,8 @@ th {
     background: #fff !important;
   }
   .navigation {
-    display: inherit;
-    background: transparent;
+    display: none;
+    background: #000;
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -1090,7 +1090,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
+  color: #1e1e1e;
   background-color: #fff;
 }
 input,
