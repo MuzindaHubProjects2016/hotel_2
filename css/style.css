@@ -457,6 +457,18 @@ select {
 .secure-left {
 	text-align:center;
 }
+.secure-left span.s-one{
+	background-position:0px 0px;
+    width: 100%
+}
+.secure-left span.s-two {
+	background-position: -100px 0px;
+    width: 100%;
+}
+.secure-left span.s-tre{
+	background-position:-200px 0px;
+    width: 100%;
+}
 .secure-left p{
 	margin-top: 3%;
 	font-size: 15px;
@@ -1206,6 +1218,20 @@ select {
 	float: left;
 	padding: 0 8px;
 }
+.secure-left span {
+	width: 80px;
+	height: 80px;
+	background-size: 300%;
+
+}
+.why-left span.w-two {
+	background-position: -80px 0px;
+    width: 100%;
+}
+.why-left span.w-tre {
+	background-position: -160px 0px;
+    width: 100%;
+}
 .test-left {
 	width: 33.3%;
 	float: left;
@@ -1583,6 +1609,18 @@ select {
 .secure-left h4 {
   font-size: 1em;
 }
+.secure-left span {
+	width: 70px;
+	height: 70px;
+}
+.secure-left span.s-two {
+  background-position: -70px 0px;
+
+}
+.secure-left span.s-tre {
+  background-position: -140px 0px;
+
+}
 .secure-left p {
   margin-top: 1%;
   font-size: 13px;
@@ -1761,6 +1799,15 @@ select {
 .secure-left {
   margin-bottom: 4%;
   padding: 0;
+}
+.secure-left span.s-one {
+	background-position: 0px 0px;
+}
+.secure-left span.s-two {
+	background-position: -55px 0px;
+}
+.secure-left span.s-tre {
+	background-position: -110px 0px;
 }
 .news-bottom {
   margin-top: 5%;
