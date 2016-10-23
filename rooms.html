@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LakeView Hotel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Paix Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery.min.js"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!--start-smoth-scrolling-->
+</head>
+<body>
+	<!--start-header-->
+	<div class="header" id="home">
+		<div class="container">
+			<div class="head">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt=""></a>
+			</div>
+
+			<div class="navigation">
+                <span class="menu"></span>
+					<ul class="navig">
+						<li><a href="index.html"  class="hvr-bounce-to-bottom">Home</a></li>
+                        <li><a href="rooms.html" class="active hvr-bounce-to-bottom">Rooms</a></li>
+						<li><a href="activities.html" class="hvr-bounce-to-bottom">Activities</a></li>
+                        <li><a href="about.html" class="hvr-bounce-to-bottom">About</a></li>
+						<li><a href="contact.html" class="hvr-bounce-to-bottom">Contact</a></li>
+					</ul>
+			</div>
+				<div class="clearfix"></div>
+
+	<!-- script-for-menu -->
+	<!-- script-for-menu -->
+		<script>
+			$("span.menu").click(function(){
+				$(" ul.navig").slideToggle("slow" , function(){
+				});
+			});
+		</script>
+	<!-- script-for-menu -->
+	<!--start-banner-->
+	<div class="banner">
+		<div class="container">
+			<div class="banner-top">
+				<h1>For Booking</h1>
+				<div class="banner-bottom">
+					<div class="bnr-one">
+						<div class="bnr-left">
+							<p>Ckeck In</p>
+						</div>
+						<div class="bnr-right">
+							<input class="date" id="datepicker" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required=>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="bnr-one">
+						<div class="bnr-left">
+							<p>Ckeck Out</p>
+						</div>
+						<div class="bnr-right">
+							<input class="date" id="datepicker1" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required=>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="bnr-one">
+						<div class="bnr-left">
+							<p>Adults</p>
+						</div>
+						<div class="bnr-right">
+							<select>
+								<option  class="rm" value="volvo">0</option>
+								<option  class="rm" value="saab">1</option>
+								<option  class="rm" value="opel">2</option>
+								<option  class="rm" value="audi">3</option>
+							</select>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+                    <div class="bnr-one">
+						<div class="bnr-left">
+							<p>Kids</p>
+						</div>
+						<div class="bnr-right">
+							<select>
+								<option  class="rm" value="volvo">0</option>
+								<option  class="rm" value="saab">1</option>
+								<option  class="rm" value="opel">2</option>
+								<option  class="rm" value="audi">3</option>
+							</select>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="bnr-one">
+						<div class="bnr-left">
+							<p>Room</p>
+						</div>
+						<div class="bnr-right">
+							<select>
+								<option value="volvo">Select a type</option>
+								<option value="saab">Single</option>
+								<option value="opel">Double</option>
+								<option value="audi">Suite</option>
+							</select>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="bnr-btn">
+						<form>
+							<input type="submit" value="Book Now">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end-banner-->
+	<!---start-date-piker---->
+		<link rel="stylesheet" href="css/jquery-ui.css" />
+		<script src="js/jquery-ui.js"></script>
+			<script>
+				$(function() {
+				$( "#datepicker,#datepicker1" ).datepicker();
+				});
+			</script>
+	<!---/End-date-piker---->
+
+	<!--start-secure-->
+	<div class="secure">
+		<div class="container">
+			<div class="secure-top">
+				<div class="col-md-4 secure-left">
+
+					<h4>Single Room</h4>
+					<p>Vivamus eu lectus erat. Integer at nulla vitae dui laoreet tempor. Integer sem leo, malesuada et tristique id, sagittis vel tortor.</p>
+				</div>
+				<div class="col-md-4 secure-left">
+					<h4>Double</h4>
+					<p>Vivamus eu lectus erat. Integer at nulla vitae dui laoreet tempor. Integer sem leo, malesuada et tristique id, sagittis vel tortor.</p>
+				</div>
+				<div class="col-md-4 secure-left">
+					<h4>Suite</h4>
+					<p>Vivamus eu lectus erat. Integer at nulla vitae dui laoreet tempor. Integer sem leo, malesuada et tristique id, sagittis vel tortor.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--end-secure-->
+	<!--start-footer-->
+	<div class="footer">
+		<div class="container">
+		<div class="touch-top heading">
+				<h3>FOLLOW US</h3>
+			</div>
+			<div class="touch-bottom">
+				<p>6164 Mangwende Drive East Highfield Harare</p>
+				<h6 >0772305572 , 0735304593</h6>
+				<p>Feel Free to call.</p>
+				<ul>
+					<li><a href="https://www.facebook.com/dennis.kadengu/about"><span class="fb"> </span></a></li>
+					<li><a href="#"><span class="twit"> </span></a></li>
+                    <li><a href="#"><span class="google"> </span></a></li>
+				</ul>
+			</div>
+			<div class="footer-top">
+				<p class="footer-class">© 2016 LakeView Hotel All Rights Reserved | Design by Dennis Kadengu<a href="http://w3layouts.com/" target="_blank"></a> </p>
+			</div>
+		</div>
+		<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+										*/
+
+										$().UItoTop({ easingType: 'easeOutQuart' });
+
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+	<!--end-footer-->
+</body>
+</html>

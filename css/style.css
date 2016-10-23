@@ -168,7 +168,7 @@ ul.navig {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #ffeb00;
+	background: limegreen;
 	-webkit-transform: scaleY(0);
 	transform: scaleY(0);
 	-webkit-transform-origin: 50% 0;
@@ -190,7 +190,7 @@ ul.navig {
 	transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 ul.navig li a.active{
-	background:#ffeb00;
+	background: skyblue;
 	color:#403F45;
 }
 /* Shutter Out Horizontal */
@@ -325,7 +325,7 @@ select {
 	cursor: pointer;
 	font-weight: 600;
 	border: none;
-	background: #ffeb00;
+	background: skyblue;
 	outline: none;
 }
 .bnr-btn input[type=submit]:hover{
@@ -348,7 +348,7 @@ select {
 .heading h3 {
 	font-size: 2.5em;
 	font-weight: 700;
-	color: #146eb4;
+	color: dodgerblue;
 	margin: 0;
 	font-family: 'Raleway-Bold';
 	text-transform: uppercase;
@@ -381,17 +381,26 @@ select {
 	background:url(../images/w-sprit.png) no-repeat;
 	width:100px;
 	height:100px;
-	display:block;
-	margin:0 auto;
+	display: block;
+	margin: auto;
+
 }
 .why-left span.w-one{
 	background-position:0px 0px;
+    width: 100%
+
+
     }
 .why-left span.w-two{
 	background-position:-100px 0px;
+    width: 100%;
+
+
 }
 .why-left span.w-tre{
 	background-position:-200px 0px;
+    width: 100%;
+
 }
 /*--why-end--*/
 /*--how-start--*/
@@ -529,6 +538,8 @@ select {
 	margin:0;
 }
 .contact{
+    background-image:url(../images/contactus.jpg);
+    background-size: cover;
 	padding:6em 0px;
 }
 .contact-top {
@@ -544,7 +555,7 @@ select {
 .contact-bottom input[type="text"] {
 	width: 32.627%;
 	margin: 0px;
-	color: #D6D4D4;
+	color: #000;
 	background: none;
 	padding: 15px 10px;
 	outline: none;
@@ -552,7 +563,7 @@ select {
 }
 .contact-bottom textarea {
 	width: 100%;
-	color: #D6D4D4;
+	color: #000;
 	resize: none;
 	background: none;
 	height: 12.7em;
@@ -562,7 +573,7 @@ select {
 	margin-top: 1.4%;
 }
 .submit-btn input[type=submit] {
-	color: #B1AFAF;
+	color: deepskyblue;
 	padding: 10px 50px;
 	font-size: 20px;
 	font-weight: 700;
@@ -585,7 +596,7 @@ select {
 	-o-transition: 0.5s all;
 }
 /*--map-end--*/
-/*--services-start--*/
+/*--activities-start--*/
 .services{
 	padding:6em 0px;
 }
@@ -768,7 +779,7 @@ p.admin {
 }
 .event-btm h4 {
 	font-size: 18px;
-	color: #fff;
+	color: #555;
 	font-weight: 700;
 	padding: 15px 22px;
 	margin: 0;
@@ -803,7 +814,7 @@ p.admin {
 	color:#ffeb00;
 }
 /*--footer-end--*/
-/*--typo-start--*/
+/*--rooms-start--*/
 .pages {
 	padding: 6em 0px;
 }
@@ -1150,7 +1161,7 @@ select {
 	width: 80px;
 	height: 80px;
 	background-size: 300%;
-
+    display: none; //****this property is to ensure that small images show on larger screens properly because on jsmaller ones they will cut into the <p>  narration ***//
 }
 .why-left span.w-two {
 	background-position: -80px 0px;
@@ -1720,8 +1731,14 @@ select {
 	width: 55px;
 	height: 55px;
 }
+
+.why-left span.w-one {
+    display: none;
+}
+
 .why-left span.w-two {
   background-position: -55px 0px;
+    display: none;
 }
 .why-left {
   margin-bottom: 12px;
@@ -1729,6 +1746,7 @@ select {
 }
 .why-left span.w-tre {
 	background-position: -110px 0px;
+    display: none;
 }
 .how-left, .how-right {
   padding: 0;
