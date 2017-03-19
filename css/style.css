@@ -249,6 +249,16 @@ ul.navig li a.active{
 	position:relative;
 
 }
+.banner2{
+    background:url(../images/11.jpg) no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	min-height:670px;
+	position:relative;  
+}
 .banner-top {
 	position: absolute;
 	width: 35%;
